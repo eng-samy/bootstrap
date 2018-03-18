@@ -6,7 +6,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '18.188.68.161:6033',
+	'hostname' => '18.188.68.161',
 	'username' => 'proxysql',
 	'password' => 'ProxySQLPa55',
 	'database' => 'akelni',
@@ -23,5 +23,6 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE
+	'save_queries' => TRUE,
+	'port' => 6032
 );
