@@ -6,10 +6,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'ec2-18-188-68-161.us-east-2.compute.amazonaws.com',
-	'username' => 'root',
-	'password' => 'Samy@2016',
-	'database' => '',
+	'hostname' => '18.188.68.161:6033',
+	'username' => 'proxysql',
+	'password' => 'ProxySQLPa55',
+	'database' => 'akelni',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
